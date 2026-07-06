@@ -50,10 +50,10 @@ pip install langgraph langchain-core langchain-google-genai pymupdf requests pyt
 ```
 
 Add `GOOGLE_API_KEY=your_key_here` to a `.env` file, set your query in
-`main3.py`, then:
+`main.py`, then:
 
 ```bash
-python main3.py
+python main.py
 ```
 
 Output: `literature_review.md` (final report) and `graph.png` (agent graph).
